@@ -1,0 +1,17 @@
+name: Github Actions Example
+
+on: pull_request
+    push:
+      branches:
+          -master
+          -develop
+
+jobs: 
+  test:
+    name: unit test
+    runs-on: window-latest
+
+
+steps:
+   -name: maven test
+    run: mvn test
