@@ -1,5 +1,7 @@
 package testcases;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -18,7 +20,9 @@ public class SomeTest {
 	public void initDriver()
 	{
 		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
+		System.setProperty("webdriver.chrome.silentOutput", "true");
 		driver= new ChromeDriver();
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.manage().window().maximize();		
 	}
 
@@ -32,7 +36,7 @@ public class SomeTest {
 		search.sendKeys("titanic film wikipedia");
 		search.sendKeys(Keys.ENTER);
 
-		WebElement serResult = driver.findElement(By.xpath("(//div[@class='ellip'])[1]"));
+		WebElement serResult = driver.findElement(By.xpath("//h3[text()='Titanic (1997 film) - Wikipedia']"));
 		serResult.click();
 
 		String expTitle="Titanic (1997 film) - Wikipedia";

@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="34233" started-at="2019-08-23T17:54:32Z" finished-at="2019-08-23T17:55:06Z">
+  <suite name="Suite" duration-ms="16027" started-at="2020-05-18T16:24:23Z" finished-at="2020-05-18T16:24:39Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="34233" started-at="2019-08-23T17:54:32Z" finished-at="2019-08-23T17:55:06Z">
+    <test name="Test" duration-ms="16027" started-at="2020-05-18T16:24:23Z" finished-at="2020-05-18T16:24:39Z">
       <class name="testcases.SomeTest">
-        <test-method status="PASS" signature="initDriver()[pri:0, instance:testcases.SomeTest@6e6d5e]" name="initDriver" is-config="true" duration-ms="5811" started-at="2019-08-23T17:54:32Z" finished-at="2019-08-23T17:54:37Z">
+        <test-method status="PASS" signature="initDriver()[pri:0, instance:testcases.SomeTest@19dfb72a]" name="initDriver" is-config="true" duration-ms="4402" started-at="2020-05-18T16:24:23Z" finished-at="2020-05-18T16:24:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
-        <test-method status="PASS" signature="googleTest()[pri:0, instance:testcases.SomeTest@6e6d5e]" name="googleTest" duration-ms="25987" started-at="2019-08-23T17:54:37Z" finished-at="2019-08-23T17:55:03Z">
+        <test-method status="PASS" signature="googleTest()[pri:0, instance:testcases.SomeTest@19dfb72a]" name="googleTest" duration-ms="8736" started-at="2020-05-18T16:24:27Z" finished-at="2020-05-18T16:24:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googleTest -->
-        <test-method status="PASS" signature="closeDriver()[pri:0, instance:testcases.SomeTest@6e6d5e]" name="closeDriver" is-config="true" duration-ms="2396" started-at="2019-08-23T17:55:03Z" finished-at="2019-08-23T17:55:06Z">
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:testcases.SomeTest@19dfb72a]" name="closeDriver" is-config="true" duration-ms="2858" started-at="2020-05-18T16:24:36Z" finished-at="2020-05-18T16:24:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
